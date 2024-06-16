@@ -1,55 +1,16 @@
 {
-  "posts": [
-    {
-      "id": "1",
-      "title": "a title",
-      "views": 100
-    },
-    {
-      "id": "2",
-      "title": "another title",
-      "views": 200
-    }
-  ],
-  "comments": [
-    {
-      "id": "1",
-      "text": "a comment about post 1",
-      "postId": "1"
-    },
-    {
-      "id": "2",
-      "text": "another comment about post 1",
-      "postId": "1"
-    }
-  ],
   "tasks": [
     {
       "id": "710",
       "title": "Gym joining ",
       "description": "Routine task",
-      "status": false
-    },
-    {
-      "id": "415",
-      "title": "Complete Granini work",
-      "description": "Socket app",
-      "status": false
-    },
-    {
-      "id": "764",
-      "title": "Complete SMA work worth 160k",
-      "description": "Joomla upgradation work",
       "status": true
     },
     {
-      "id": "914",
-      "title": "Interview preperation",
-      "description": "work is in progress",
-      "status": true
+      "id": "61",
+      "title": "Getting Project work done by end of the day",
+      "description": "Critical",
+      "status": false
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
