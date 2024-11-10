@@ -22,7 +22,7 @@ const AddTaskForm = ({ saveTask }) => {
         }
 
         let task = {
-            id : Math.floor(Math.random() * 1000)+1,
+            id : String(Math.floor(Math.random() * 1000)+1),
             title : inputs.title,
             description : inputs.description,
             status : inputs.status
