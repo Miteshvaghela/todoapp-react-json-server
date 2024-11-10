@@ -3,7 +3,6 @@ import { Container, Row, Col, AccordionHeader, AccordionItem } from 'react-boots
 import Accordion from 'react-bootstrap/Accordion';
 import AddTaskForm from './components/AddTaskForm';
 import TaskList from './components/TaskList';
-import { responsivePropType } from 'react-bootstrap/esm/createUtilityClasses';
 
 const staticTasks = [
   {

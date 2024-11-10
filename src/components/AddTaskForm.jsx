@@ -31,7 +31,7 @@ const AddTaskForm = ({ saveTask }) => {
         saveTask(task);
         setInputs({});
         //console.log(inputs , ' Task');
-        alert('Task has been saved successfully.');
+        console.log('Task has been saved successfully.');
     }
     return (          
         <Form onSubmit={handleSubmit}>
